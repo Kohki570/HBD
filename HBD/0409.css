@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(144, 209, 247);
+}
+div{
+    
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+
+img{
+margin: 0% 33%;
+width:500px;
+}

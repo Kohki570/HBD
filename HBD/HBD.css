@@ -1,0 +1,22 @@
+body{
+background-color: rgb(158, 203, 255);
+}
+
+.one{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+.two{
+    color: crimson;
+    text-align: center;
+    
+}
+
+input{
+    color: blue;
+    margin: 0% 48% ;
+    
+}

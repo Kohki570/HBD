@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" href="HBD.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>今日は何の日？</title>
+</head>
+<body>
+    <div class = "one">思い当たる4桁の数字を入力してください。</div>
+    <div class ="two">パスコード</div>
+
+<script type="text/javascript">
+
+    function gate(){
+        
+        var UserInput = prompt("パスコードを入力","");
+        
+        if( /\W+/g.test(UserInput) ) {
+            
+            alert("半角英数字のみを入力して下さい。");
+        }
+        else if( UserInput != null ) {
+            
+            location.href = UserInput + ".html";
+        }
+    }
+
+</script> 
+
+
+    <input type="button" value="入力する" onclick="gate();">
+
+    
+
+
+</body>
+</html>
